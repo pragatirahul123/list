@@ -1,6 +1,6 @@
 places=["delhi", "gujrat", "rajasthan", "punjab", "kerala"]
-index=-1
-while index<len(places):
+index=len(places)-1
+while index>=0:
 	print(places[index])
 	index=index-1
 
